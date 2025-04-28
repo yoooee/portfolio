@@ -1,8 +1,34 @@
-.App {
+body {
+  
+  font-family: "PT Sans", sans-serif;
+  margin: 0;
+  padding: 0;
 
-  header {
+  .App {
 
+    header {
+
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+
+      height: 4.5rem;
+
+      background-color: var(--color-accent);
+      color: var(--color-white);
+
+      .header-title-sub {
+        background-image: var(--title-sub);
+        background-repeat: no-repeat;
+        background-position: center right;
+      }
+
+      .header-title {
+        background-image: var(--title);
+        background-repeat: no-repeat;
+        background-position: center left;
+      }
+    }
   }
+
 }
-
-
