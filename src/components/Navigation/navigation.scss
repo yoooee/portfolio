@@ -1,5 +1,16 @@
 .navigation {
-
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style-type: none;
+
+  li {
+    a {
+      color: var(--color-page-link);
+      font-weight: 600;
+      font-size: 1.25rem;
+      padding: 0 1rem;
+      text-decoration: none;
+    }
+  }
 }
