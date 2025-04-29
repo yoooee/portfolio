@@ -11,7 +11,7 @@ body {
 
     header {
 
-        background-color: var(--color-accent);
+      background-color: var(--color-accent);
       padding: 5px;
 
       .logo {
@@ -19,7 +19,6 @@ body {
         background-image: var(--title-mobile);
         background-repeat: no-repeat;
         background-position: center;
-
 
         min-height: 100px;
       }
@@ -32,15 +31,49 @@ body {
   body {
     .App {
       header {
-
-
         .logo {
-      background-color: var(--color-accent);
-      color: var(--color-white);
-        background-image: var(--title);
-        background-size: contain;
-        background-position: bottom center;
+          background-image: var(--title);
+          background-size: contain;
+          background-position: bottom center;
+
+          min-height: 50px;
+        }
+      }
+    }
+  }
 }
+
+@media (min-width: $device-sm) {
+  body {
+    .App {
+      header {
+        .logo {
+          min-height: 60px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: $device-md) {
+  body {
+    .App {
+      header {
+        .logo {
+          min-height: 70px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: $device-lg) {
+  body {
+    .App {
+      header {
+        .logo {
+          min-height: 80px;
+        }
       }
     }
   }
