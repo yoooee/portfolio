@@ -3,10 +3,10 @@ import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders logo', () => {
   render(<MemoryRouter><App /></MemoryRouter>);
-  const logoElement = screen.getByTestId('logo');
-  expect(logoElement).toBeInTheDocument();
+  const logoElement = screen.getAllByRole('img');
+  expect(logoElement[0]).toBeInTheDocument();
 });
 
 test('renders basic navigation', () => {

@@ -1,16 +1,35 @@
+@import '../../breakpoints';
+
 .navigation {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-evenly;
   list-style-type: none;
+  max-width: 900px;
+  width: 100%;
+  margin: 0;
+  padding:0;
 
   li {
     a {
       color: var(--color-page-link);
       font-weight: 600;
-      font-size: 1.25rem;
-      padding: 0 1rem;
+      font-size: .8rem;
+
+      display: block;
+      margin: .25rem 0;
       text-decoration: none;
+
+    }
+  }
+}
+
+@media (min-width: $device-sm) {
+  .navigation {
+    justify-content: flex-end; 
+
+    li {
+      padding: 0 1rem;
     }
   }
 }
