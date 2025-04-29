@@ -1,13 +1,12 @@
 import React from 'react';
 
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
       <header>
-        <div className="header-title-sub"></div>
-        <div className="header-title"></div>
+        <div className="logo"></div>
       </header>
     </div>
   );

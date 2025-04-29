@@ -1,0 +1,47 @@
+@import 'breakpoints';
+
+body {
+  
+  font-family: "PT Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-page);
+
+  .App {
+
+    header {
+
+        background-color: var(--color-accent);
+      padding: 5px;
+
+      .logo {
+        color: var(--color-white);
+        background-image: var(--title-mobile);
+        background-repeat: no-repeat;
+        background-position: center;
+
+
+        min-height: 100px;
+      }
+    }
+  }
+
+}
+
+@media (min-width: $device-xs) {
+  body {
+    .App {
+      header {
+
+
+        .logo {
+      background-color: var(--color-accent);
+      color: var(--color-white);
+        background-image: var(--title);
+        background-size: contain;
+        background-position: bottom center;
+}
+      }
+    }
+  }
+}
