@@ -1,5 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import {BrowserRouter} from 'react-router';
+import {Routes, Route} from 'react-router';
+import Design from './components/Design/Design';
+import Development from './components/Development/Development';
+import Illustration from './components/Illustration/Illustration';
+import Photography from './components/Photography/Photography';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -9,7 +15,15 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+      <Routes>
+        <Route path="/design" element={<Design />} />
+        <Route path="/development" element={<Development />} />
+        <Route path="/illustration" element={<Illustration />} />
+        <Route path="/photography" element={<Photography />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
