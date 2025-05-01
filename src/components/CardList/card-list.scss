@@ -3,7 +3,7 @@
 .card-list {
   display: grid;
   gap: 1rem;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
   max-width: 900px;
   width: 90%;
   margin: 0 auto;
@@ -11,12 +11,12 @@
 
 @media (min-width: $device-sm){
   .card-list {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
   }
 }
 
 @media (min-width: $device-md){
   .card-list {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
   }
 }

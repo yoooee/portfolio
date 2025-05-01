@@ -1,4 +1,4 @@
-import React, {ReactElement, ReactNode} from 'react';
+import React, {ReactNode} from 'react';
 
 import './card.scss';
 
@@ -10,8 +10,12 @@ interface CardProps {
 function Card({thumbnail, children}: CardProps) {
   return (
     <div className="card">
-      <div className="thumbnail" style={{backgroundImage: `url('${thumbnail}')`}}></div>
-{children}
+      <div className="thumbnail" 
+        style={{
+          backgroundImage: `url(${require(`../../assets/portfolio-images/${thumbnail}`)})`
+        }}>
+      </div>
+      {children}
     </div>
   );
 }
