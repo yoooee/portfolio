@@ -17,6 +17,8 @@ body {
       padding: 5px;
       display: flex;
       justify-content: center;
+      max-width: 900px;
+      margin: 0 auto;
 
       .logo-mobile, .logo-desktop {
         width: 90%;
