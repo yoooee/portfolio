@@ -1,4 +1,4 @@
-  export type Tag = 'css' | 'html' | 'blah';
+  export type Tag = 'css' | 'html' | 'javascript';
 
   export interface portfolioItem {
     title?: string;
