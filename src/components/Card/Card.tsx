@@ -1,21 +1,21 @@
-import React, {ReactNode} from 'react';
+import React, {MouseEventHandler, ReactNode} from 'react';
+import {portfolioItem} from '../../interfaces';
 
 import './card.scss';
 
 interface CardProps {
-  thumbnail: string;
-  children: ReactNode;
+  portfolioItem: portfolioItem;
+  clicked: MouseEventHandler<HTMLDivElement>;
 }
 
-function Card({thumbnail, children}: CardProps) {
+function Card({portfolioItem, clicked}: CardProps) {
   return (
-    <div className="card">
+    <div className="card" onClick={clicked}>
       <div className="thumbnail" 
         style={{
-          backgroundImage: `url(${require(`../../assets/portfolio-images/${thumbnail}`)})`
+          backgroundImage: `url(${require(`../../assets/portfolio-images/${portfolioItem.image}`)})`
         }}>
       </div>
-      {children}
     </div>
   );
 }
