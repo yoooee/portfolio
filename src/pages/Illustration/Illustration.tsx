@@ -18,6 +18,7 @@ function Illustration() {
   function cardClickHandler(currentModal: number) {
     setCurrentModal(currentModal);
     setModalIsOpen(true); 
+    window.scrollTo(0, 0);
   }
 
   return (

@@ -1,4 +1,5 @@
 import React, {ReactNode} from 'react';
+import Tag from '../../components/Tag/Tag';
 import {portfolioItem} from '../../interfaces';
 import Backdrop from '../Backdrop/Backdrop';
 import './modal.scss';
@@ -16,10 +17,25 @@ function Modal({show, modalClosed, children}: ModalProps) {
       <>
         <Backdrop clicked={modalClosed} />
         <div className="modal">
-          {children.image}
-          {children.title}
-          {children.subtitle}
-          {children.tags}
+          <header>
+            <h2>{children.title}</h2>
+          </header>
+          <section>
+            <article>
+              <h3>{children.subtitle}</h3>
+              <p>
+                {children.bodytext}
+              </p>
+              <div className="tag-list">
+              {children?.tags?.map((tag) => {
+                return <Tag>{ tag }</Tag>
+              })}
+              </div>
+            </article>
+            <div className="primary-image">
+              <img src={require(`../../assets/portfolio-images/${children.image}`)} alt={children.title + ' example'} />
+            </div>
+          </section>
         </div>
       </>
     );

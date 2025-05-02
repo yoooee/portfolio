@@ -7,9 +7,6 @@ import Modal from '../../UI/Modal/Modal';
 function Development() {
   const portfolioItemList: portfolioItem [] = [
     {image: 'cmss-interface.gif'}, 
-    {image: 'spawn.jpg'}, 
-    {image: 'super-heroine.jpg'}, 
-    {image: 'wolverine.jpg'}, 
   ];
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -18,6 +15,7 @@ function Development() {
   function cardClickHandler(currentModal: number) {
     setCurrentModal(currentModal);
     setModalIsOpen(true); 
+    window.scrollTo(0, 0);
   }
 
   return (

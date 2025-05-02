@@ -1,11 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {BrowserRouter} from 'react-router';
-import {Routes, Route} from 'react-router';
-import Design from './pages/Design/Design';
-import Development from './pages/Development/Development';
-import Illustration from './pages/Illustration/Illustration';
-import Photography from './pages/Photography/Photography';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -17,12 +12,6 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <App />
-      <Routes>
-        <Route path="/design" element={<Design />} />
-        <Route path="/development" element={<Development />} />
-        <Route path="/illustration" element={<Illustration />} />
-        <Route path="/photography" element={<Photography />} />
-      </Routes>
     </BrowserRouter>
   </React.StrictMode>
 );
