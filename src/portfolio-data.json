@@ -53,6 +53,10 @@
     }
   ],
   "development": [
+    {"image": "cci-custom-drop-down.png"},
+    {"image": "cci-overview.png"},
+    {"image": "cci-invoices.png"},
+    {"image": "form-builder.png"},
     {"image": "cmss-interface.gif"}
   ],
   "illustration": [

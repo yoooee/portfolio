@@ -17,9 +17,31 @@ function Design() {
     window.scrollTo(0, 0);
   }
 
+  function modalClickNextHandler() {
+    if (currentModal < portfolioItemList.length - 1) {
+      cardClickHandler(currentModal + 1);
+    } else {
+      cardClickHandler(0);
+    }
+  }
+
+  function modalClickPrevHandler() {
+    if (currentModal > 0) {
+      cardClickHandler(currentModal - 1);
+    } else {
+      cardClickHandler(portfolioItemList.length - 1);
+    }
+
+  }
+
   return (
     <div className="design-cards">
-      <Modal show={modalIsOpen} modalClosed={() => setModalIsOpen(false)}>{portfolioItemList[currentModal]}</Modal>
+      <Modal 
+        show={modalIsOpen} 
+        modalClosed={() => setModalIsOpen(false)}
+        modalNext={() => modalClickNextHandler()}
+        modalPrev={() => modalClickPrevHandler()}
+      >{portfolioItemList[currentModal]}</Modal>
       <CardList>
         {
           portfolioItemList.map((portfolioItem, key) => {

@@ -26,7 +26,6 @@
     display: grid;
     grid-template-columns: repeat(auto, 2);
     padding: .5rem;
-    height: 80dvh;
 
     article {
       color: var(--color-page);
@@ -40,19 +39,24 @@
       }
 
       p {
-        font-size: 1.25rem;
+        font-size: 1rem;
         line-height: 1.25rem;
       }
 
       ul {
+        margin: 0 0 2rem 0;
         li {
           &::marker {
             content: '▹ ';
+            content: '▸ ';
             font-size: 1.25rem;
+            color: var(--color-accent);
           }
 
           font-size: 1rem;
           font-weight: 600;
+            line-height: 1rem;
+            padding-top:.5rem;
         }
       }
 
@@ -64,9 +68,23 @@
 
     .primary-image {
       overflow-y: scroll;
+      min-height: 400px;
       img {
         width: 100%;
       }
+    }
+  }
+
+  footer {
+    background-color: var(--color-accent);
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      background-color: transparent;
+      color: white;
+      border: none;
+      padding: .5rem 1rem;
     }
   }
 }

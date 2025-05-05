@@ -7,10 +7,13 @@ import './modal.scss';
 interface ModalProps {
   show: boolean;
   modalClosed: React.MouseEventHandler<HTMLDivElement>;
+  modalNext?: React.MouseEventHandler<HTMLButtonElement>;
+  modalPrev?: React.MouseEventHandler<HTMLButtonElement>;
   children: PortfolioItem;
+
 }
 
-function Modal({show, modalClosed, children}: ModalProps) {
+function Modal({show, modalClosed, modalNext, modalPrev, children}: ModalProps) {
   
   if (show) {
     return (
@@ -41,6 +44,10 @@ function Modal({show, modalClosed, children}: ModalProps) {
               <img src={require(`../../assets/portfolio-images/${children.image}`)} alt={children.title + ' example'} />
             </div>
           </section>
+          <footer>
+            <button onClick={modalPrev}>Prev</button>
+            <button onClick={modalNext}>Next</button>
+          </footer>
         </div>
       </>
     );
