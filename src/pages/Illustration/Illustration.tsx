@@ -1,16 +1,12 @@
 import React, {useState} from 'react';
-import type { portfolioItem } from '../../interfaces';
+import type { PortfolioItem } from '../../interfaces';
 import Card from '../../components/Card/Card';
 import CardList from '../../components/CardList/CardList';
 import Modal from '../../UI/Modal/Modal';
+import results from '../../portfolio-data.json';
 
 function Illustration() {
-  const portfolioItemList: portfolioItem [] = [
-    {image: 'arnold.jpg'}, 
-    {image: 'spawn.jpg'}, 
-    {image: 'super-heroine.jpg'}, 
-    {image: 'wolverine.jpg'}, 
-  ];
+  const portfolioItemList = results.illustration as PortfolioItem[];
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [currentModal, setCurrentModal] = useState(0);

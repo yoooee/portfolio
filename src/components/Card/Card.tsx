@@ -1,10 +1,10 @@
-import React, {MouseEventHandler, ReactNode} from 'react';
-import {portfolioItem} from '../../interfaces';
+import React, {MouseEventHandler} from 'react';
+import {PortfolioItem} from '../../interfaces';
 
 import './card.scss';
 
 interface CardProps {
-  portfolioItem: portfolioItem;
+  portfolioItem: PortfolioItem;
   clicked: MouseEventHandler<HTMLDivElement>;
 }
 

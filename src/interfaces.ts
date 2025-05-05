@@ -1,6 +1,6 @@
   export type Tag = 'css' | 'html' | 'javascript' | 'react' | 'angular' | 'photography' | 'photoshop' | 'illustrator' | 'wacom';
 
-  export interface portfolioItem {
+  export interface PortfolioItem {
     title?: string;
     subtitle?: string;
     bodytext?: string;
