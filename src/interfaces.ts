@@ -4,6 +4,7 @@
     title?: string;
     subtitle?: string;
     bodytext?: string;
+    features?: string [];
     image: string;
     tags?: Tag [];
   }
