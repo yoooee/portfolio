@@ -26,6 +26,11 @@ function Modal({show, modalClosed, children}: ModalProps) {
               <p>
                 {children.bodytext}
               </p>
+              {children.features !== undefined && children.features.length > 0 &&
+                <ul>
+                  {children.features.map(feature => <li>{feature}</li>)}
+                </ul>
+              }
               <div className="tag-list">
               {children?.tags?.map((tag) => {
                 return <Tag>{ tag }</Tag>

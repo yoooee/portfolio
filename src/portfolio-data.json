@@ -5,7 +5,12 @@
       "title": "Super DNN World", 
       "subtitle": "DotNetNuke Design Challenge Community Favorite", 
       "bodytext": "I created a custom theme for DotNetNuke around the concept of the Super Mario Brothers games. Every asset in this theme pack was hand drawn and configured to work within DNN. Yes, even the slide show of the complete first level was hand drawn.",
-      "tags": ["css", "html"]
+      "features": [
+        "Hand drawn design", 
+        "Fluid layout for dynamic content", 
+        "Reusable designs for all module containers."
+      ],
+      "tags": ["css", "html", "wacom"]
     }, 
     {
       "image": "church.jpg",

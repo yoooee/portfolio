@@ -29,13 +29,32 @@
     height: 80dvh;
 
     article {
+      color: var(--color-page);
+      padding: 1rem;
+
       h3 {
-        font-size:1rem;
+        font-size: 1.75rem;
+        line-height: 1.5rem;
         font-weight: 600;
-        color: var(--color-page);
         margin: 0;
       }
 
+      p {
+        font-size: 1.25rem;
+        line-height: 1.25rem;
+      }
+
+      ul {
+        li {
+          &::marker {
+            content: '▹ ';
+            font-size: 1.25rem;
+          }
+
+          font-size: 1rem;
+          font-weight: 600;
+        }
+      }
 
       .tag-list {
         display:flex;
