@@ -2,6 +2,8 @@
 
   export type Layout = "landscape" | "portrait";
 
+  export type Category = "design" | "development" | "illustration" | "photography";
+
   export interface PortfolioItem {
     title?: string;
     layout?: Layout;

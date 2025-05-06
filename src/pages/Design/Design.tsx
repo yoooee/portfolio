@@ -4,6 +4,7 @@ import Card from '../../components/Card/Card';
 import CardList from '../../components/CardList/CardList';
 import Modal from '../../UI/Modal/Modal';
 import results from '../../portfolio-data.json';
+import Portfolio from '../../components/Portfolio/Portfolio';
 
 function Design() {
   const portfolioItemList = results.design as PortfolioItem[];
@@ -36,6 +37,7 @@ function Design() {
 
   return (
     <div className="design-cards">
+      <Portfolio category="design" />
       <Modal 
         layout={portfolioItemList[currentModal].layout}
         show={modalIsOpen} 
