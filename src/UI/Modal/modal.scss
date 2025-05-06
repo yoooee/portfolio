@@ -15,17 +15,35 @@
   header {
     background-color: var(--color-accent);
     color: var(--color-white);
-    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 1rem !important;
 
     h2 {
       margin:0;
+      flex-grow: 1;
+    }
+
+    .close-button {
+      background-color: transparent;
+      border: 1px solid var(--color-white);
+      border-radius: 4px;
+      color: white;
+      font-weight: 800;
+      padding: .5rem .75rem;
     }
   }
 
   section {
     display: grid;
-    grid-template-columns: repeat(auto, 2);
     padding: .5rem;
+
+    &.portrait {
+      grid-template-columns: 1fr 1fr;
+    }
+    &.landscape {
+      grid-template-columns: 1fr;
+    }
 
     article {
       color: var(--color-page);
@@ -93,7 +111,7 @@
 @media (min-width: $device-sm) {
   .modal {
     section {
-      grid-template-columns: 1fr 1fr;
+      //grid-template-columns: 1fr 1fr;
       //grid-column: 1/2;
 
 

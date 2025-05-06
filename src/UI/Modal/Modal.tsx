@@ -1,19 +1,20 @@
 import React, {ReactNode} from 'react';
 import Tag from '../../components/Tag/Tag';
-import {PortfolioItem} from '../../interfaces';
+import {Layout, PortfolioItem} from '../../interfaces';
 import Backdrop from '../Backdrop/Backdrop';
 import './modal.scss';
 
 interface ModalProps {
+  layout?: Layout;
   show: boolean;
-  modalClosed: React.MouseEventHandler<HTMLDivElement>;
+  modalClosed: React.MouseEventHandler<HTMLDivElement | HTMLButtonElement>;
   modalNext?: React.MouseEventHandler<HTMLButtonElement>;
   modalPrev?: React.MouseEventHandler<HTMLButtonElement>;
   children: PortfolioItem;
 
 }
 
-function Modal({show, modalClosed, modalNext, modalPrev, children}: ModalProps) {
+function Modal({layout = "portrait", show, modalClosed, modalNext, modalPrev, children}: ModalProps) {
   
   if (show) {
     return (
@@ -22,8 +23,9 @@ function Modal({show, modalClosed, modalNext, modalPrev, children}: ModalProps) 
         <div className="modal">
           <header>
             <h2>{children.title}</h2>
+            <button className="close-button" onClick={modalClosed} >X</button>
           </header>
-          <section>
+          <section className={layout}>
             <article>
               <h3>{children.subtitle}</h3>
               <p>

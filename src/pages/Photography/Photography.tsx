@@ -19,7 +19,7 @@ function Photography() {
 
   return (
     <div className="photography-cards">
-      <Modal show={modalIsOpen} modalClosed={() => setModalIsOpen(false)}>{portfolioItemList[currentModal]}</Modal>
+      <Modal layout={portfolioItemList[currentModal].layout} show={modalIsOpen} modalClosed={() => setModalIsOpen(false)}>{portfolioItemList[currentModal]}</Modal>
       <CardList>
         {
           portfolioItemList.map((portfolioItem, key) => {

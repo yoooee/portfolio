@@ -55,6 +55,7 @@
   "development": [
     {
       "image": "cci-custom-drop-down-large.png",
+      "layout": "landscape",
       "title": "Customer selector",
       "subtitle": "Custom searchable drop down menu",
       "bodytext": "Due to the large number of results, the client needed a way to easily find the correct customer. I created a custom searchable drop down list that allowed for the display of multi-line results. This component is both WCAG AA compliant, responsive, and keyboard accessible",

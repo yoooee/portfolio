@@ -32,12 +32,12 @@ function Design() {
     } else {
       setCurrentModal(portfolioItemList.length - 1);
     }
-
   }
 
   return (
     <div className="design-cards">
       <Modal 
+        layout={portfolioItemList[currentModal].layout}
         show={modalIsOpen} 
         modalClosed={() => setModalIsOpen(false)}
         modalNext={() => modalClickNextHandler()}
