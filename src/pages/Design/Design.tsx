@@ -18,18 +18,19 @@ function Design() {
   }
 
   function modalClickNextHandler() {
+    console.log('current ', currentModal);
     if (currentModal < portfolioItemList.length - 1) {
-      cardClickHandler(currentModal + 1);
+      setCurrentModal(currentModal + 1);
     } else {
-      cardClickHandler(0);
+      setCurrentModal(0);
     }
   }
 
   function modalClickPrevHandler() {
     if (currentModal > 0) {
-      cardClickHandler(currentModal - 1);
+      setCurrentModal(currentModal - 1);
     } else {
-      cardClickHandler(portfolioItemList.length - 1);
+      setCurrentModal(portfolioItemList.length - 1);
     }
 
   }

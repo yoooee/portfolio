@@ -53,8 +53,22 @@
     }
   ],
   "development": [
-    {"image": "cci-custom-drop-down.png"},
-    {"image": "cci-overview.png"},
+    {
+      "image": "cci-custom-drop-down-large.png",
+      "title": "Customer selector",
+      "subtitle": "Custom searchable drop down menu",
+      "bodytext": "Due to the large number of results, the client needed a way to easily find the correct customer. I created a custom searchable drop down list that allowed for the display of multi-line results. This component is both WCAG AA compliant, responsive, and keyboard accessible",
+      "features": ["Custom searchable drop down list with multi-line results", "Keyboard Friendly", "Responsive"],
+      "tags": ["html", "css", "svelte"]
+    },
+    {
+      "image": "cci-overview.png",
+      "title": "Billing Summary Portal",
+      "subtitle": "Custom tabbed interface",
+      "bodytext": "Added a custom and reusable tab system to allow for users to easily access information required.",
+      "features": ["Custom responsive grid system", "Custom Tab Component"],
+      "tags": ["html", "css", "svelte"]
+    },
     {"image": "cci-invoices.png"},
     {"image": "form-builder.png"},
     {"image": "cmss-interface.gif"}
