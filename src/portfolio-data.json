@@ -8,7 +8,8 @@
       "features": [
         "Hand drawn design", 
         "Fluid layout for dynamic content", 
-        "Reusable designs for all module containers."
+        "Reusable designs for all module containers",
+        "Won first prize"
       ],
       "tags": ["css", "html", "wacom"]
     }, 
@@ -64,34 +65,122 @@
     },
     {
       "image": "cci-overview.png",
+      "layout": "landscape",
       "title": "Billing Summary Portal",
       "subtitle": "Custom tabbed interface",
       "bodytext": "Added a custom and reusable tab system to allow for users to easily access information required.",
       "features": ["Custom responsive grid system", "Custom Tab Component"],
       "tags": ["html", "css", "svelte"]
     },
-    {"image": "cci-invoices.png"},
-    {"image": "form-builder.png"},
-    {"image": "cmss-interface.gif"}
+    {
+      "image": "cci-invoices.png",
+      "layout": "landscape",
+      "title": "Invoice Table",
+      "subtitle": "Searchable and filterable table",
+      "bodytext": "We created several data tables for the client levering the Headless UI table component from TanStack.",
+      "features": ["TanStack headless table", "Custom column filters", "Searchable"],
+      "tags": ["html", "css", "svelte"]
+    },
+    {
+      "image": "form-builder.png",
+      "layout": "landscape",
+      "title": "Form Builder",
+      "subtitle": "Custom form builder redesign",
+      "bodytext": "We redesigned a custom form builder to be WCAG AA compliant with an improved user experience.",
+      "features": ["Drag and drop form element creation", "Drag and drop sorting", "Live form preview"],
+      "tags": ["html", "css", "elm"]
+    },
+    {
+      "image": "cmss-interface.gif",
+      "layout": "landscape",
+      "title": "Press Release Manager",
+      "subtitle": "",
+      "bodytext": "Small web design firm wanted to offer their clients a way to manage press releases without requring web site changes. I created this custom press release manager to fulfill this need. It was later turned into a standard feature we offered to all our clients.",
+      "features": ["Update press releases without requring HTML knowledge", "Custom icons to indicate status of press release", "WYSIWYG editor for body content"],
+      "tags": ["html", "css", "asp"]
+
+    }
   ],
   "illustration": [
-    {"image": "arnold.jpg"}, 
-    {"image": "spawn.jpg"}, 
-    {"image": "super-heroine.jpg"}, 
-    {"image": "wolverine.jpg"}
+    {
+      "image": "arnold.jpg",
+      "title": "The Governator",
+      "subtitle": "College drawing project",
+      "bodytext": "I drew Arnold Schwarzenegger and various muscle diagrams for a class project in art school.",
+      "tags": ["graphite"]
+    }, 
+    {
+      "image": "spawn.jpg",
+      "title": "Spawn",
+      "subtitle": "Drawing of Todd McFarlane's Spawn character",
+      "bodytext": "I spent each of my one hour lunch breaks for seventeen days drawing spawn.",
+      "tags": ["photoshop", "wacom"]
+    }, 
+    {
+      "image": "super-heroine.jpg",
+      "title": "Unknown Heroine",
+      "subtitle": "Concept character",
+      "bodytext": "A traditional drawing of a character I created that was colored in Photoshop.",
+      "features": ["Custom desing", "Hand drawn"],
+      "tags": ["graphite", "photoshop"]
+    }, 
+    {
+      "image": "wolverine.jpg",
+      "title": "Wolverine vs Lady Deathstrike",
+      "subtitle": "Fight to the death",
+      "bodytext": "As a fourteen year old, I spent a lot of times drawing and using comic books as my reference. This is a drawing of original artwork by Larry Hama and Marc Silvestri.",
+      "tags": ["graphite"]
+
+    }
   ],
   "photography": [
-    {"image": "arch.jpg"}, 
-    {"image": "cat.jpg"}, 
-    {"image": "clouds.jpg"}, 
-    {"image": "door.jpg"}, 
-    {"image": "fence.jpg"}, 
-    {"image": "giordanos.jpg"},
-    {"image": "lamp.jpg"},
-    {"image": "leaves.jpg"},
-    {"image": "light.jpg"},
-    {"image": "portrait.jpg"},
-    {"image": "portrait2.jpg"},
-    {"image": "sign.jpg"}
+    {
+      "image": "arch.jpg",
+      "layout": "landscape"
+    }, 
+    {
+      "image": "cat.jpg",
+      "layout": "landscape"
+    }, 
+    {
+      "image": "clouds.jpg",
+      "layout": "landscape"
+    }, 
+    {
+      "image": "door.jpg",
+      "layout": "landscape"
+    }, 
+    {
+      "image": "fence.jpg",
+      "layout": "landscape"
+    }, 
+    {
+      "image": "giordanos.jpg",
+      "layout": "landscape"
+    },
+    {
+      "image": "lamp.jpg",
+      "layout": "landscape"
+    },
+    {
+      "image": "leaves.jpg",
+      "layout": "landscape"
+    },
+    {
+      "image": "light.jpg",
+      "layout": "landscape"
+    },
+    {
+      "image": "portrait.jpg",
+      "layout": "landscape"
+    },
+    {
+      "image": "portrait2.jpg",
+      "layout": "landscape"
+    },
+    {
+      "image": "sign.jpg",
+      "layout": "landscape"
+    }
   ]
 }
