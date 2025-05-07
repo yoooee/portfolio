@@ -15,7 +15,11 @@ interface ModalProps {
 }
 
 function Modal({layout = "portrait", show, modalClosed, modalNext, modalPrev, children}: ModalProps) {
-  
+
+  function shouldDisplayArticle() {
+    return children.subtitle || children.bodytext || children.features || children.tags;
+  }
+
   if (show) {
     return (
       <>
@@ -26,22 +30,25 @@ function Modal({layout = "portrait", show, modalClosed, modalNext, modalPrev, ch
             <button className="close-button" onClick={modalClosed} >X</button>
           </header>
           <section className={layout}>
-            <article>
-              <h3>{children.subtitle}</h3>
-              <p>
-                {children.bodytext}
-              </p>
-              {children.features !== undefined && children.features.length > 0 &&
-                <ul>
-                  {children.features.map(feature => <li>{feature}</li>)}
-                </ul>
-              }
-              <div className="tag-list">
-              {children?.tags?.map((tag) => {
-                return <Tag>{ tag }</Tag>
-              })}
-              </div>
-            </article>
+            {shouldDisplayArticle() && 
+              <article>
+                { children.subtitle && <h3>{children.subtitle}</h3> }
+                { children.bodytext && <p>{children.bodytext}</p> }
+                {children.features !== undefined && children.features.length > 0 &&
+                  <ul>
+                    {children.features.map(feature => <li>{feature}</li>)}
+                  </ul>
+                }
+                { children.tags && 
+                  <div className="tag-list">
+                    { children?.tags?.map((tag) => {
+                        return <Tag>{ tag }</Tag>
+                      })
+                    }
+                  </div>
+                }
+              </article>
+            }
             <div className="primary-image">
               <img src={require(`../../assets/portfolio-images/${children.image}`)} alt={children.title + ' example'} />
             </div>

@@ -136,11 +136,16 @@
   "photography": [
     {
       "image": "arch.jpg",
-      "layout": "landscape"
+      "layout": "landscape",
+      "title": "Veer logo",
+      "subtitle": "Veer logo design contest using traditional medium"
+
     }, 
     {
       "image": "cat.jpg",
-      "layout": "landscape"
+      "layout": "landscape",
+      "title": "Popcorn"
+
     }, 
     {
       "image": "clouds.jpg",

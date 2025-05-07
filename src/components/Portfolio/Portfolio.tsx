@@ -39,23 +39,26 @@ function Portfolio({category}: PortfolioProps) {
   }
   return (
     <>
-    <Modal 
-    layout={portfolioItemList[currentModal].layout}
-    show={modalIsOpen} 
-    modalClosed={() => setModalIsOpen(false)}
-    modalNext={() => modalClickNextHandler()}
-    modalPrev={() => modalClickPrevHandler()}
-    >{portfolioItemList[currentModal]}</Modal>
-    <CardList>
-    {
-      portfolioItemList.map((portfolioItem, key) => {
-        return (
-          <Card key={key} portfolioItem={portfolioItem} clicked={() => cardClickHandler(key)} />
-        )
-      })
-    }
-    </CardList>
-    </>)
+      <Modal 
+        layout={portfolioItemList[currentModal].layout}
+        show={modalIsOpen} 
+        modalClosed={() => setModalIsOpen(false)}
+        modalNext={() => modalClickNextHandler()}
+        modalPrev={() => modalClickPrevHandler()}
+      >
+        {portfolioItemList[currentModal]}
+      </Modal>
+      <CardList>
+      {
+        portfolioItemList.map((portfolioItem, key) => {
+          return (
+            <Card key={key} portfolioItem={portfolioItem} clicked={() => cardClickHandler(key)} />
+          )
+        })
+      }
+      </CardList>
+    </>
+  )
 }
 
 export default Portfolio;
