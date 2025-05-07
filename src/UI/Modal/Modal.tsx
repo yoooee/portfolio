@@ -1,4 +1,4 @@
-import React, {ReactNode} from 'react';
+import React from 'react';
 import Tag from '../../components/Tag/Tag';
 import {Layout, PortfolioItem} from '../../interfaces';
 import Backdrop from '../Backdrop/Backdrop';

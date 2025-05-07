@@ -1,4 +1,4 @@
-import {useState}  from 'react';
+import {useState, useEffect, useCallback }  from 'react';
 import type { PortfolioItem } from '../../interfaces';
 import {Category} from '../../interfaces';
 import results from '../../portfolio-data.json';
@@ -22,21 +22,47 @@ function Portfolio({category}: PortfolioProps) {
     window.scrollTo(0, 0);
   }
 
-  function modalClickNextHandler() {
+  const modalClickNextHandler = useCallback(() => {
+
     if (currentModal < portfolioItemList.length - 1) {
       setCurrentModal(currentModal + 1);
     } else {
       setCurrentModal(0);
     }
-  }
+  }, [currentModal, portfolioItemList]);
 
-  function modalClickPrevHandler() {
+  const modalClickPrevHandler = useCallback(() => {
     if (currentModal > 0) {
       setCurrentModal(currentModal - 1);
     } else {
       setCurrentModal(portfolioItemList.length - 1);
     }
-  }
+  }, [currentModal, portfolioItemList]);
+
+
+  const keyPressHandler = useCallback((event: KeyboardEvent) => {
+    if (event.key === 'ArrowRight') {
+      modalClickNextHandler();
+    }
+
+    if (event.key === 'ArrowLeft') {
+      modalClickPrevHandler();
+    }
+
+    if (event.key === 'Escape') {
+      setModalIsOpen(false);
+    }
+
+  }, [modalClickNextHandler, modalClickPrevHandler]);
+
+  useEffect(() => {
+    document.addEventListener('keydown', keyPressHandler);
+
+    return () => {
+      document.removeEventListener('keydown', keyPressHandler);
+    }
+  }, [keyPressHandler]);
+
   return (
     <>
       <Modal 
