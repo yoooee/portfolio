@@ -1,9 +1,15 @@
 .card {
 
-  border-top: 3px solid var(--color-accent);
   background-color: var(--color-white);
   margin: .5rem 0 0 0;
   padding: .5rem;
+  cursor: pointer;
+  outline: solid 0px var(--color-accent);
+  transition: outline 0.15s ease-out;
+
+  &:has(.thumbnail:focus, .thumbnail:hover) {
+    outline: solid 3px var(--color-accent);
+  }
 
   .thumbnail {
     width: 100%;
@@ -11,11 +17,11 @@
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-  }
+    border: none;
+    cursor: pointer;
 
-  h2 {
-    margin: 0;
-    font-weight: 800;
-    font-size: 1.25rem;
+    &:focus {
+      outline: none;
+    }
   }
 }

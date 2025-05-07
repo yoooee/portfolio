@@ -11,11 +11,11 @@ interface CardProps {
 function Card({portfolioItem, clicked}: CardProps) {
   return (
     <div className="card" onClick={clicked}>
-      <div className="thumbnail" 
+      <button className="thumbnail" 
         style={{
           backgroundImage: `url(${require(`../../assets/portfolio-images/${portfolioItem.image}`)})`
         }}>
-      </div>
+      </button>
     </div>
   );
 }
