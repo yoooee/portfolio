@@ -35,7 +35,8 @@
     }, 
     {
       "image": "halloween.jpg",
-      "title": "Halloween Party Poster",
+      "title": "Trick or Treat",
+      "subtitle": "Halloween Party Poster",
       "bodytext": "We decided to throw a Halloween party at work so I designed this poster as a fun way to spread the news.",
       "tags": ["photoshop"]
     }, 
@@ -56,7 +57,7 @@
   "development": [
     {
       "image": "cci-custom-drop-down-large.png",
-      "layout": "landscape",
+      "layout": "portrait",
       "title": "Customer selector",
       "subtitle": "Custom searchable drop down menu",
       "bodytext": "Due to the large number of results, the client needed a way to easily find the correct customer. I created a custom searchable drop down list that allowed for the display of multi-line results. This component is both WCAG AA compliant, responsive, and keyboard accessible",
@@ -95,7 +96,7 @@
       "layout": "landscape",
       "title": "Press Release Manager",
       "subtitle": "",
-      "bodytext": "Small web design firm wanted to offer their clients a way to manage press releases without requring web site changes. I created this custom press release manager to fulfill this need. It was later turned into a standard feature we offered to all our clients.",
+      "bodytext": "Back in 2005, I worked at a small web design firm that wanted to offer their clients a way to manage press releases without requring web site changes. I created this custom press release manager to fulfill this need. It was later turned into a standard feature we offered to all our clients.",
       "features": ["Update press releases without requring HTML knowledge", "Custom icons to indicate status of press release", "WYSIWYG editor for body content"],
       "tags": ["html", "css", "asp"]
 
@@ -136,10 +137,10 @@
   "photography": [
     {
       "image": "arch.jpg",
-      "layout": "landscape",
+      "layout": "portrait",
       "title": "Veer logo",
-      "subtitle": "Veer logo design contest using traditional medium"
-
+      "subtitle": "Veer logo design contest",
+      "bodytext": "Veer was a design services company that challenged people to design their logo using traditional medium."
     }, 
     {
       "image": "cat.jpg",
@@ -149,43 +150,57 @@
     }, 
     {
       "image": "clouds.jpg",
-      "layout": "landscape"
+      "layout": "landscape",
+      "title": ""
     }, 
     {
       "image": "door.jpg",
-      "layout": "landscape"
+      "layout": "portrait",
+      "title": "Park Door",
+      "subtitle": "Door on a building at a local park.",
+      "bodytext": "I really enjoyed the textures and composition this door created."
     }, 
     {
       "image": "fence.jpg",
-      "layout": "landscape"
+      "layout": "landscape",
+      "title": "Sunset"
     }, 
     {
       "image": "giordanos.jpg",
-      "layout": "landscape"
+      "layout": "landscape",
+      "title": "Date Night"
     },
     {
       "image": "lamp.jpg",
-      "layout": "landscape"
+      "layout": "portrait",
+      "title": "Modern Twist",
+      "subtitle": "Modern lamp in historic district",
+      "bodytext": "While exploring a very historic neighborhood, I found these modern lamps that were made to match the age of the buildings."
     },
     {
       "image": "leaves.jpg",
-      "layout": "landscape"
+      "layout": "landscape",
+      "title": "Life"
     },
     {
       "image": "light.jpg",
-      "layout": "landscape"
+      "layout": "landscape",
+      "title": "Radiance"
     },
     {
       "image": "portrait.jpg",
-      "layout": "landscape"
+      "layout": "landscape",
+      "title": "Portrait"
     },
     {
       "image": "portrait2.jpg",
-      "layout": "landscape"
+      "layout": "landscape",
+      "title": "Portrait 2"
     },
     {
       "image": "sign.jpg",
-      "layout": "landscape"
+      "layout": "landscape",
+      "title": "Weathered"
     }
   ]
 }
