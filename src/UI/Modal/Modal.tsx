@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useRef} from 'react';
 import Tag from '../../components/Tag/Tag';
 import {Layout, PortfolioItem} from '../../interfaces';
 import Backdrop from '../Backdrop/Backdrop';
@@ -15,6 +15,15 @@ interface ModalProps {
 }
 
 function Modal({layout = "portrait", show, modalClosed, modalNext, modalPrev, children}: ModalProps) {
+  const modalRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (show) {
+      if (modalRef.current) {
+        modalRef.current.focus();
+      }
+    }
+  }, [show]);
 
   function shouldDisplayArticle() {
     return children.subtitle || children.bodytext || children.features || children.tags;
@@ -24,10 +33,10 @@ function Modal({layout = "portrait", show, modalClosed, modalNext, modalPrev, ch
     return (
       <>
         <Backdrop clicked={modalClosed} />
-        <div className="modal">
+        <div tabIndex={-1} className="modal" ref={modalRef}>
           <header>
             <h2>{children.title}</h2>
-            <button className="close-button" onClick={modalClosed} >X</button>
+            <button tabIndex={2} className="close-button" onClick={modalClosed} >X</button>
           </header>
           <section className={layout}>
             {shouldDisplayArticle() && 
@@ -54,8 +63,8 @@ function Modal({layout = "portrait", show, modalClosed, modalNext, modalPrev, ch
             </div>
           </section>
           <footer>
-            <button onClick={modalPrev}>Prev</button>
-            <button onClick={modalNext}>Next</button>
+            <button  onClick={modalPrev}>Prev</button>
+            <button  onClick={modalNext}>Next</button>
           </footer>
         </div>
       </>

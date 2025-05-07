@@ -25,12 +25,42 @@
     }
 
     .close-button {
+      position: relative;
       background-color: transparent;
-      border: 1px solid var(--color-white);
+      border: none;
       border-radius: 4px;
       color: white;
       font-weight: 800;
       padding: .5rem .75rem;
+
+      &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: var(--color-white);
+        transform-origin: bottom left;
+        transition: transform 0.25s ease-out;
+      }
+
+      &:hover {
+        &::after {
+          transform: scaleX(1);
+          transform-origin: bottom left;
+        }
+      }
+
+      &:focus {
+        outline: none;
+
+        &::after {
+          transform: scaleX(1);
+          transform-origin: bottom left;
+        }
+      }
     }
   }
 
@@ -92,12 +122,43 @@
     background-color: var(--color-accent);
     display: flex;
     justify-content: space-between;
+    padding: .25rem;
 
     button {
+      position: relative;
       background-color: transparent;
       color: white;
       border: none;
       padding: .5rem 1rem;
+
+      &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: var(--color-white);
+        transform-origin: bottom left;
+        transition: transform 0.25s ease-out;
+      }
+
+      &:hover {
+        &::after {
+          transform: scaleX(1);
+          transform-origin: bottom left;
+        }
+      }
+
+      &:focus {
+        outline: none;
+
+        &::after {
+          transform: scaleX(1);
+          transform-origin: bottom left;
+        }
+      }
     }
   }
 }

@@ -41,17 +41,18 @@ function Portfolio({category}: PortfolioProps) {
 
 
   const keyPressHandler = useCallback((event: KeyboardEvent) => {
-    if (event.key === 'ArrowRight') {
+    if (event.key === "ArrowRight") {
       modalClickNextHandler();
     }
 
-    if (event.key === 'ArrowLeft') {
+    if (event.key === "ArrowLeft") {
       modalClickPrevHandler();
     }
 
-    if (event.key === 'Escape') {
+    if (event.key === "Escape") {
       setModalIsOpen(false);
     }
+    
 
   }, [modalClickNextHandler, modalClickPrevHandler]);
 
