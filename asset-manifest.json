@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c8dcf08e.css",
+    "main.css": "/portfolio/static/css/main.412707de.css",
     "main.js": "/portfolio/static/js/main.f2d82ac6.js",
     "static/js/453.ace21015.chunk.js": "/portfolio/static/js/453.ace21015.chunk.js",
     "static/media/mardi-gras.jpg": "/portfolio/static/media/mardi-gras.0cd04f2ad27827a38ceb.jpg",
@@ -44,12 +44,12 @@
     "static/media/photo.jpeg": "/portfolio/static/media/photo.3e84abf46ed1eb978aa3.jpeg",
     "static/media/cci-custom-drop-down.png": "/portfolio/static/media/cci-custom-drop-down.dc919ec76552985bf0a6.png",
     "index.html": "/portfolio/index.html",
-    "main.c8dcf08e.css.map": "/portfolio/static/css/main.c8dcf08e.css.map",
+    "main.412707de.css.map": "/portfolio/static/css/main.412707de.css.map",
     "main.f2d82ac6.js.map": "/portfolio/static/js/main.f2d82ac6.js.map",
     "453.ace21015.chunk.js.map": "/portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8dcf08e.css",
+    "static/css/main.412707de.css",
     "static/js/main.f2d82ac6.js"
   ]
 }
