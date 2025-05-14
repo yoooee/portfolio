@@ -21,7 +21,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "add-domain": "echo \"www.staroba.dev\" > build/CNAME",
+    "deploy": "npm run add-domain && gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
