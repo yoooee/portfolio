@@ -6,10 +6,10 @@
       "subtitle": "DotNetNuke Design Challenge Community Favorite", 
       "bodytext": "I created a custom theme for DotNetNuke around the concept of the Super Mario Brothers games. Every asset in this theme pack was hand drawn and configured to work within DNN. Yes, even the slide show of the complete first level was hand drawn.",
       "features": [
-        "Hand drawn design", 
-        "Fluid layout for dynamic content", 
-        "Reusable designs for all module containers",
-        "Won first prize"
+        {"text": "Hand drawn design"}, 
+        {"text": "Fluid layout for dynamic content"}, 
+        {"text": "Reusable designs for all module containers"},
+        {"text": "First prize winner"}
       ],
       "tags": ["css", "html", "wacom"]
     }, 
@@ -61,7 +61,12 @@
       "title": "Customer selector",
       "subtitle": "Custom searchable drop down menu",
       "bodytext": "Due to the large number of results, the client needed a way to easily find the correct customer. I created a custom searchable drop down list that allowed for the display of multi-line results. This component is both WCAG AA compliant, responsive, and keyboard accessible",
-      "features": ["Custom searchable drop down list with multi-line results", "Keyboard Friendly", "Responsive"],
+      "features": [
+        {"text": "Custom searchable drop down list with multi-line results"}, 
+        {"text": "Keyboard Friendly"}, 
+        {"text": "Responsive"}, 
+        {"text": "Case Study", "url": "https://engagesoftware.com/showcase/case-study-cci"}
+      ],
       "tags": ["html", "css", "svelte"]
     },
     {
@@ -70,7 +75,11 @@
       "title": "Billing Summary Portal",
       "subtitle": "Custom tabbed interface",
       "bodytext": "Added a custom and reusable tab system to allow for users to easily access information required.",
-      "features": ["Custom responsive grid system", "Custom Tab Component"],
+      "features": [
+        {"text": "Custom responsive grid system"}, 
+        {"text": "Custom Tab Component"},
+        {"text": "Case Study", "url": "https://engagesoftware.com/showcase/case-study-cci"}
+      ],
       "tags": ["html", "css", "svelte"]
     },
     {
@@ -79,7 +88,12 @@
       "title": "Invoice Table",
       "subtitle": "Searchable and filterable table",
       "bodytext": "We created several data tables for the client levering the Headless UI table component from TanStack.",
-      "features": ["TanStack headless table", "Custom column filters", "Searchable"],
+      "features": [
+        {"text": "TanStack headless table"}, 
+        {"text": "Custom column filters"}, 
+        {"text": "Searchable"},
+        {"text": "Case Study", "url": "https://engagesoftware.com/showcase/case-study-cci"}
+      ],
       "tags": ["html", "css", "svelte"]
     },
     {
@@ -88,8 +102,24 @@
       "title": "Form Builder",
       "subtitle": "Custom form builder redesign",
       "bodytext": "We redesigned a custom form builder to be WCAG AA compliant with an improved user experience.",
-      "features": ["Drag and drop form element creation", "Drag and drop sorting", "Live form preview"],
+      "features": [
+        {"text": "Drag and drop form element creation"}, 
+        {"text": "Drag and drop sorting"}, 
+        {"text": "Live form preview"}
+      ],
       "tags": ["html", "css", "elm"]
+    },
+    {
+      "image": "mobot-desktop.png",
+      "title": "Missouri Botanical Garden",
+      "subtitle": "Mobot site restructure and design",
+      "bodytext": "Consolidated multiple sites and legacy back end systems into a single unified content management system.",
+      "features": [
+        {"text": "Unified design across multiple sites"},
+        {"text": "Custom module development to meet clients needs"},
+        {"text": "Performed extensive training with client on leveraging new CMS system."}
+      ],
+      "tags": ["html", "css", "javascript", ".net", "dnn"]
     },
     {
       "image": "cmss-interface.gif",
@@ -97,7 +127,11 @@
       "title": "Press Release Manager",
       "subtitle": "",
       "bodytext": "Back in 2005, I worked at a small web design firm that wanted to offer their clients a way to manage press releases without requring web site changes. I created this custom press release manager to fulfill this need. It was later turned into a standard feature we offered to all our clients.",
-      "features": ["Update press releases without requring HTML knowledge", "Custom icons to indicate status of press release", "WYSIWYG editor for body content"],
+      "features": [
+        {"text": "Update press releases without requring HTML knowledge"}, 
+        {"text": "Custom icons to indicate status of press release"}, 
+        {"text": "WYSIWYG editor for body content"}
+      ],
       "tags": ["html", "css", "asp"]
 
     }
@@ -122,7 +156,10 @@
       "title": "Unknown Heroine",
       "subtitle": "Concept character",
       "bodytext": "A traditional drawing of a character I created that was colored in Photoshop.",
-      "features": ["Custom desing", "Hand drawn"],
+      "features": [
+        {"text": "Custom desing"}, 
+        {"text": "Hand drawn"}
+      ],
       "tags": ["graphite", "photoshop"]
     }, 
     {
@@ -191,11 +228,6 @@
       "image": "portrait.jpg",
       "layout": "landscape",
       "title": "Portrait"
-    },
-    {
-      "image": "portrait2.jpg",
-      "layout": "landscape",
-      "title": "Portrait 2"
     },
     {
       "image": "sign.jpg",

@@ -45,7 +45,11 @@ function Modal({layout = "portrait", show, modalClosed, modalNext, modalPrev, ch
                 { children.bodytext && <p>{children.bodytext}</p> }
                 {children.features !== undefined && children.features.length > 0 &&
                   <ul>
-                    {children.features.map(feature => <li>{feature}</li>)}
+                    {children.features.map(feature => 
+                      feature.url === undefined ? 
+                        <li>{ feature.text }</li> :
+                        <li><a href={feature.url} rel="noreferrer" target="_blank">{feature.text}</a></li>
+                    )}
                   </ul>
                 }
                 { children.tags && 

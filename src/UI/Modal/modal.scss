@@ -106,6 +106,43 @@
         }
       }
 
+      a {
+        position: relative;
+        display: inline-block;
+        color: var(--color-accent);
+        text-decoration: none;
+        padding-bottom: 0.25rem;
+
+        &::after {
+          content: '';
+          position: absolute;
+          width: 100%;
+          transform: scaleX(0);
+          height: 2px;
+          bottom: 0;
+          left: 0;
+          background-color: var(--color-accent);
+          transform-origin: bottom left;
+          transition: transform 0.25s ease-out;
+        }
+
+        &:hover {
+          &::after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+          }
+        }
+
+      &:focus {
+        outline: none;
+
+        &::after {
+          transform: scaleX(1);
+          transform-origin: bottom left;
+        }
+      }
+      }
+
       .tag-list {
         display:flex;
         justify-content: flex-end;
