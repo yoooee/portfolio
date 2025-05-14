@@ -150,8 +150,9 @@
     }
 
     .primary-image {
-      overflow-y: scroll;
+      overflow-y: auto;
       display: flex;
+
       img {
         width: 100%;
       }
