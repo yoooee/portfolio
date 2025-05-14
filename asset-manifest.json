@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.959f0963.css",
-    "main.js": "/static/js/main.cfae4b48.js",
+    "main.css": "/static/css/main.385a6766.css",
+    "main.js": "/static/js/main.85363b55.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/mardi-gras.jpg": "/static/media/mardi-gras.0cd04f2ad27827a38ceb.jpg",
     "static/media/spawn.jpg": "/static/media/spawn.c04464361affcd6ac133.jpg",
@@ -44,12 +44,12 @@
     "static/media/photo.jpeg": "/static/media/photo.3e84abf46ed1eb978aa3.jpeg",
     "static/media/cci-custom-drop-down.png": "/static/media/cci-custom-drop-down.dc919ec76552985bf0a6.png",
     "index.html": "/index.html",
-    "main.959f0963.css.map": "/static/css/main.959f0963.css.map",
-    "main.cfae4b48.js.map": "/static/js/main.cfae4b48.js.map",
+    "main.385a6766.css.map": "/static/css/main.385a6766.css.map",
+    "main.85363b55.js.map": "/static/js/main.85363b55.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.959f0963.css",
-    "static/js/main.cfae4b48.js"
+    "static/css/main.385a6766.css",
+    "static/js/main.85363b55.js"
   ]
 }
