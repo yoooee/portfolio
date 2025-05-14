@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.385a6766.css",
-    "main.js": "/static/js/main.85363b55.js",
+    "main.css": "/static/css/main.7b2fa2e3.css",
+    "main.js": "/static/js/main.fac84ba2.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/mardi-gras.jpg": "/static/media/mardi-gras.0cd04f2ad27827a38ceb.jpg",
     "static/media/spawn.jpg": "/static/media/spawn.c04464361affcd6ac133.jpg",
@@ -16,6 +16,7 @@
     "static/media/clouds.jpg": "/static/media/clouds.49e12b9a1b87a039c1d6.jpg",
     "static/media/fence.jpg": "/static/media/fence.0c21d88dc46cf83af709.jpg",
     "static/media/cat.jpg": "/static/media/cat.600a1a42582125a33b3d.jpg",
+    "static/media/yoooee-blog.png": "/static/media/yoooee-blog.16330848db5bc0f48f41.png",
     "static/media/wolverine.jpg": "/static/media/wolverine.fc3f6965f7cbf7a441e4.jpg",
     "static/media/arnold.jpg": "/static/media/arnold.17c4c134ec5d93e1297c.jpg",
     "static/media/staroba-redesign2.jpg": "/static/media/staroba-redesign2.67e66463177bacb45f50.jpg",
@@ -44,12 +45,12 @@
     "static/media/photo.jpeg": "/static/media/photo.3e84abf46ed1eb978aa3.jpeg",
     "static/media/cci-custom-drop-down.png": "/static/media/cci-custom-drop-down.dc919ec76552985bf0a6.png",
     "index.html": "/index.html",
-    "main.385a6766.css.map": "/static/css/main.385a6766.css.map",
-    "main.85363b55.js.map": "/static/js/main.85363b55.js.map",
+    "main.7b2fa2e3.css.map": "/static/css/main.7b2fa2e3.css.map",
+    "main.fac84ba2.js.map": "/static/js/main.fac84ba2.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.385a6766.css",
-    "static/js/main.85363b55.js"
+    "static/css/main.7b2fa2e3.css",
+    "static/js/main.fac84ba2.js"
   ]
 }
