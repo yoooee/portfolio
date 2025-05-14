@@ -54,7 +54,7 @@ function Modal({layout = "portrait", show, modalClosed, modalNext, modalPrev, ch
                 }
                 { children.tags && 
                   <div className="tag-list">
-                    { children?.tags?.map((tag) => {
+                    { children?.tags?.sort().map((tag) => {
                         return <Tag>{ tag }</Tag>
                       })
                     }

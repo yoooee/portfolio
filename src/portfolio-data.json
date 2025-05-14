@@ -1,6 +1,14 @@
 {
   "design" : [
     {
+      "image": "yoooee-blog.png",
+      "layout": "landscape",
+      "title": "Personal Blog",
+      "subtitle": "Custom designed blog",
+      "bodytext": "A blog I created designed and created for myself as a way to showcase the various projects on which I was working.",
+      "tags": ["css", "dnn", "html", "javascript" ]
+    },
+    {
       "image": "smb.jpg", 
       "title": "Super DNN World", 
       "subtitle": "DotNetNuke Design Challenge Community Favorite", 
@@ -67,7 +75,7 @@
         {"text": "Responsive"}, 
         {"text": "Case Study", "url": "https://engagesoftware.com/showcase/case-study-cci"}
       ],
-      "tags": ["html", "css", "svelte"]
+      "tags": ["html", "css", "svelte", "typescript"]
     },
     {
       "image": "cci-overview.png",
@@ -80,7 +88,7 @@
         {"text": "Custom Tab Component"},
         {"text": "Case Study", "url": "https://engagesoftware.com/showcase/case-study-cci"}
       ],
-      "tags": ["html", "css", "svelte"]
+      "tags": ["html", "css", "svelte", "typescript"]
     },
     {
       "image": "cci-invoices.png",
@@ -94,7 +102,7 @@
         {"text": "Searchable"},
         {"text": "Case Study", "url": "https://engagesoftware.com/showcase/case-study-cci"}
       ],
-      "tags": ["html", "css", "svelte"]
+      "tags": ["html", "css", "svelte", "typescript"]
     },
     {
       "image": "form-builder.png",
