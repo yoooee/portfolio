@@ -22,12 +22,33 @@
       "tags": ["css", "html", "wacom"]
     }, 
     {
-      "image": "church.jpg",
-      "title": "Faith",
-      "subtitle": "Digital manipulation",
-      "bodytext": "This work combines various photos I took combined and altered in photoshop.",
-      "tags": ["photography", "photoshop"]
-    }, 
+      "image": "staroba-web-development.png",
+      "layout": "landscape",
+      "title": "Staroba Web Development",
+      "subtitle": "Corporate site design",
+      "bodytext": "This site was the face of my company when I was running my own business. It was done mostly in Flash, when that was a thing.",
+      "features": [
+        {"text": "Animated site with Flash"},
+        {"text": "Winner of Golden Web Award, 2003 - 2004"}
+      ],
+      "tags": ["css", "html", "javascript", "flash", "actionscript"]
+    },
+    {
+      "image": "staroba-redesign-2.png",
+      "layout": "landscape",
+      "title": "Personal Website",
+      "subtitle": "Changing with the seasons",
+      "bodytext": "This was a design I created for my personal website. The idea behind the multiple designs is that the theme would change based on the time of year of the visitor.",
+      "tags": ["css", "html", "asp", "photography"]
+    },
+    {
+      "image": "staroba-redesign-3.png",
+      "layout": "landscape",
+      "title": "Portfolio Website Concept",
+      "subtitle": "Portfolio site beta",
+      "bodytext": "Keeping only the logo from my previous site design, I wanted to go in a more organic look and feel with this design",
+      "tags": ["css", "html", "asp", "photography"]
+    },
     {
       "image": "golf-classic.jpg",
       "title": "St. Paul's Mini Golf Classic",
@@ -36,23 +57,11 @@
       "tags": ["wacom", "photoshop", "illustrator"]
     }, 
     {
-      "image": "guinness.jpg",
-      "title": "Happy Hour",
-      "subtitle": "Digital manipulation",
-      "tags": ["photography", "photoshop"]
-    }, 
-    {
       "image": "halloween.jpg",
       "title": "Trick or Treat",
       "subtitle": "Halloween Party Poster",
       "bodytext": "We decided to throw a Halloween party at work so I designed this poster as a fun way to spread the news.",
       "tags": ["photoshop"]
-    }, 
-    {
-      "image": "machine.jpg",
-      "title": "Down on the farm",
-      "subtitle": "Digital manipulation",
-      "tags": ["photography", "photoshop"]
     }, 
     {
       "image": "mardi-gras.jpg",
@@ -146,6 +155,13 @@
   ],
   "illustration": [
     {
+      "image": "sketch_male_portrait.jpg",
+      "title": "Male Portrait",
+      "subtitle": "Practice sketch",
+      "bodytext": "I painted this portrait with a Wacom in Photoshop as an exercise to become more comfortable working with a digital medium.",
+      "tags": ["photoshop", "wacom"]
+    },
+    {
       "image": "arnold.jpg",
       "title": "The Governator",
       "subtitle": "College drawing project",
@@ -180,6 +196,25 @@
     }
   ],
   "photography": [
+    {
+      "image": "church.jpg",
+      "title": "Faith",
+      "subtitle": "Digital manipulation",
+      "bodytext": "This work combines various photos I took combined and altered in photoshop.",
+      "tags": ["photoshop"]
+    }, 
+    {
+      "image": "guinness.jpg",
+      "title": "Happy Hour",
+      "subtitle": "Digital manipulation",
+      "tags": ["photoshop"]
+    }, 
+    {
+      "image": "machine.jpg",
+      "title": "Down on the farm",
+      "subtitle": "Digital manipulation",
+      "tags": ["photoshop"]
+    }, 
     {
       "image": "arch.jpg",
       "layout": "portrait",

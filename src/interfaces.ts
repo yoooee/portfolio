@@ -1,4 +1,4 @@
-  export type Tag = "css" | "html" | "javascript" | "typescript" | "react" | "angular" | "svelte" | "elm" | "asp" | ".net" | "dnn" | "photography" | "photoshop" | "illustrator" | "wacom" | "graphite" ;
+  export type Tag = "actionscript" | "css" | "flash" | "html" | "javascript" | "typescript" | "react" | "angular" | "svelte" | "elm" | "asp" | ".net" | "dnn" | "photography" | "photoshop" | "illustrator" | "wacom" | "graphite" ;
 
   export type Layout = "landscape" | "portrait";
 
