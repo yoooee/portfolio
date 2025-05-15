@@ -21,6 +21,13 @@ body {
       max-width: 900px;
       margin: 0 auto;
 
+      a {
+        outline: none;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+
       .logo-mobile, .logo-desktop {
         width: 90%;
         max-width: 900px;
@@ -48,11 +55,7 @@ body {
   body {
     .App {
       header {
-        .logo {
-          background-image: var(--title);
-          background-size: contain;
-          background-position: bottom center;
-
+        .logo-mobile {
           min-height: 50px;
         }
       }
@@ -80,7 +83,7 @@ body {
   body {
     .App {
       header {
-        .logo {
+        .logo-desktop {
           min-height: 70px;
         }
       }

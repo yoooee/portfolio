@@ -48,7 +48,7 @@ function Modal({layout = "portrait", show, modalClosed, modalNext, modalPrev, ch
                     {children.features.map(feature => 
                       feature.url === undefined ? 
                         <li>{ feature.text }</li> :
-                        <li><a href={feature.url} rel="noreferrer" target="_blank">{feature.text}</a></li>
+                        <li><a tabIndex={2} href={feature.url} rel="noreferrer" target="_blank">{feature.text}</a></li>
                     )}
                   </ul>
                 }
@@ -67,8 +67,8 @@ function Modal({layout = "portrait", show, modalClosed, modalNext, modalPrev, ch
             </div>
           </section>
           <footer>
-            <button  onClick={modalPrev}>Prev</button>
-            <button  onClick={modalNext}>Next</button>
+            <button tabIndex={2}  onClick={modalPrev}>Prev</button>
+            <button tabIndex={2}  onClick={modalNext}>Next</button>
           </footer>
         </div>
       </>
