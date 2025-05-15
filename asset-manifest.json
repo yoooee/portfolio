@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.7b2fa2e3.css",
-    "main.js": "/static/js/main.fac84ba2.js",
+    "main.css": "/static/css/main.e7f56e11.css",
+    "main.js": "/static/js/main.bdfa9918.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/mardi-gras.jpg": "/static/media/mardi-gras.0cd04f2ad27827a38ceb.jpg",
     "static/media/spawn.jpg": "/static/media/spawn.c04464361affcd6ac133.jpg",
     "static/media/door.jpg": "/static/media/door.62dd1352eefe4c72d5ed.jpg",
     "static/media/church.jpg": "/static/media/church.0d8e47793eb639562313.jpg",
     "static/media/halloween.jpg": "/static/media/halloween.d67afc8edb3ca15d40f5.jpg",
+    "static/media/staroba-redesign-3.png": "/static/media/staroba-redesign-3.2d8412bf1680ef2e87ca.png",
     "static/media/lamp.jpg": "/static/media/lamp.38f571dc987adc13cbe4.jpg",
     "static/media/smb.jpg": "/static/media/smb.d47c0d707586f758e676.jpg",
     "static/media/cvn.jpg": "/static/media/cvn.4f51b1029dbe0cbcc7f9.jpg",
@@ -22,6 +23,7 @@
     "static/media/staroba-redesign2.jpg": "/static/media/staroba-redesign2.67e66463177bacb45f50.jpg",
     "static/media/staroba-redesign1.jpg": "/static/media/staroba-redesign1.2edcbb033f0ac358eaf8.jpg",
     "static/media/chief.jpg": "/static/media/chief.75774ead2cbfceccfa5b.jpg",
+    "static/media/staroba-redesign-2.png": "/static/media/staroba-redesign-2.42f582224736543deb6e.png",
     "static/media/giordanos.jpg": "/static/media/giordanos.f6cf6d75383e870ec959.jpg",
     "static/media/leaves.jpg": "/static/media/leaves.40772c5db0b2aabd0b96.jpg",
     "static/media/sign.jpg": "/static/media/sign.0247040cb14abe75329a.jpg",
@@ -32,8 +34,12 @@
     "static/media/staroba.jpg": "/static/media/staroba.16bd24eac9b46e38ed7d.jpg",
     "static/media/super-heroine.jpg": "/static/media/super-heroine.ab823ed13d12f78d564a.jpg",
     "static/media/arch.jpg": "/static/media/arch.f47780622ba5f850c84a.jpg",
+    "static/media/sketch_male_portrait.jpg": "/static/media/sketch_male_portrait.9f8c2c00efa88c3bf3a8.jpg",
     "static/media/portrait.jpg": "/static/media/portrait.70c1289a1950f2fc3691.jpg",
+    "static/media/staroba-redesign-2-fall.png": "/static/media/staroba-redesign-2-fall.de87c1b52a1b72c6fe74.png",
     "static/media/steadyrain-desktop.png": "/static/media/steadyrain-desktop.0318a8b37aef9cda8938.png",
+    "static/media/staroba-web-development.png": "/static/media/staroba-web-development.88e79dfe31c4741c1521.png",
+    "static/media/staroba-redesign-2-spring.png": "/static/media/staroba-redesign-2-spring.df225acf149957adbaea.png",
     "static/media/custom-drop-down.png": "/static/media/custom-drop-down.edea5de18607b44bf235.png",
     "static/media/mobot-desktop.png": "/static/media/mobot-desktop.b555f33596dd1445aa74.png",
     "static/media/logo-desktop.svg": "/static/media/logo-desktop.15895aed9d86a68f0b731d984d4c412b.svg",
@@ -44,13 +50,14 @@
     "static/media/cci-overview.png": "/static/media/cci-overview.2bfdc4ea47df7e166700.png",
     "static/media/photo.jpeg": "/static/media/photo.3e84abf46ed1eb978aa3.jpeg",
     "static/media/cci-custom-drop-down.png": "/static/media/cci-custom-drop-down.dc919ec76552985bf0a6.png",
+    "static/media/cmss-interface.png": "/static/media/cmss-interface.325888a91ed42340dc1e.png",
     "index.html": "/index.html",
-    "main.7b2fa2e3.css.map": "/static/css/main.7b2fa2e3.css.map",
-    "main.fac84ba2.js.map": "/static/js/main.fac84ba2.js.map",
+    "main.e7f56e11.css.map": "/static/css/main.e7f56e11.css.map",
+    "main.bdfa9918.js.map": "/static/js/main.bdfa9918.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b2fa2e3.css",
-    "static/js/main.fac84ba2.js"
+    "static/css/main.e7f56e11.css",
+    "static/js/main.bdfa9918.js"
   ]
 }
