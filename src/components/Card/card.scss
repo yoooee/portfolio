@@ -6,6 +6,7 @@
   cursor: pointer;
   outline: solid 0px var(--color-accent);
   transition: outline 0.15s ease-out;
+  box-shadow: var(--shadow);
 
   &:has(.thumbnail:focus, .thumbnail:hover) {
     outline: solid 3px var(--color-accent);
