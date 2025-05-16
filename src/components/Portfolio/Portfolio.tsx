@@ -6,6 +6,8 @@ import Card from '../../components/Card/Card';
 import CardList from '../../components/CardList/CardList';
 import Modal from '../../UI/Modal/Modal';
 
+import "./portfolio.scss";
+
 interface PortfolioProps {
   category: Category;
 }
@@ -75,6 +77,7 @@ function Portfolio({category}: PortfolioProps) {
       >
         {portfolioItemList[currentModal]}
       </Modal>
+      <h1>{category}</h1>
       <CardList>
       {
         portfolioItemList.map((portfolioItem, key) => {

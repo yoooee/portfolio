@@ -20,7 +20,7 @@ function App() {
           </NavLink>
         </header>
         <nav><Navigation /></nav> 
-        <div className="portfolio">
+        <main className="portfolio">
           <Routes>
             <Route path="/design" element={<Design />} />
             <Route path="/development" element={<Development />} />
@@ -28,7 +28,7 @@ function App() {
             <Route path="/photography" element={<Photography />} />
             <Route path="/" element={<Home />} />
           </Routes>
-        </div>
+        </main>
       </div>
   );
 }

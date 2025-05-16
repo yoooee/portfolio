@@ -3,37 +3,50 @@
 .home {
   background-color: var(--color-white);
   width: 80%;
-  margin: 1rem auto;
+  margin: .5rem auto;
   border-radius: 4px;
   padding: 1rem;
-  display: flex;
-  flex-direction: column;
+  display: grid;
   box-shadow: 2px 2px 2px var(--color-black);
 
+  h1 {
+    color: var(--color-page);
+    margin: 0 0 1rem 0;
+    line-height: 1.5rem;
+  }
+
   article {
-    margin-right: 1rem;
+    display: grid;
     font-size: 1.25rem;
     line-height: 1.5rem;
+    justify-items: end;
 
-    p {
-      color: var(--color-page);
+    section {
+      display: grid;
 
-      &:first-of-type {
-        margin: 0;
+      p {
+        color: var(--color-page);
+
+        &:first-of-type {
+          margin: 0;
+        }
       }
     }
   }
 
   img {
     outline: 3px solid var(--color-accent);
-    height: 100%;
+    width: 100%;
   }
 
 }
 
 @media (min-width: $device-sm) {
   .home {
-    flex-direction: row;
+    article {
+      grid-template-columns: 2fr 1fr;
+      gap: 1rem;
+    }
     img {
       max-width: 250px;
     }
