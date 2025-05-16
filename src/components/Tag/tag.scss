@@ -1,3 +1,5 @@
+@import '../../breakpoints';
+
 .tag {
   background-color: var(--color-page-link);
   display:inline;
@@ -5,4 +7,11 @@
   border-radius: 4px;
   margin: .25rem;
   color: white;
+  font-size: 0.75rem;
+}
+
+@media (min-width: $device-sm) {
+  .tag {
+    font-size: 1rem;
+  }
 }

@@ -7,7 +7,7 @@
   width: 90%;
   box-shadow: 1px 1px 1px black;
   left: 5%;
-  top: 2%;
+  top: 1.25%;
   max-width:900px;
   box-sizing: border-box;
   border-radius: 4px;
@@ -76,7 +76,8 @@
   section {
     display: grid;
     padding: .5rem;
-    max-height: 80vh;
+    max-height: 75dvh;
+
     overflow-y: scroll;
 
 
@@ -107,8 +108,8 @@
 
           font-size: 1rem;
           font-weight: 600;
-            line-height: 1rem;
-            padding-top:.5rem;
+          line-height: 1rem;
+          padding-top:.5rem;
         }
       }
 
@@ -139,19 +140,19 @@
           }
         }
 
-      &:focus {
-        outline: none;
+        &:focus {
+          outline: none;
 
-        &::after {
-          transform: scaleX(1);
-          transform-origin: bottom left;
+          &::after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+          }
         }
-      }
       }
 
       .tag-list {
         display:flex;
-        justify-content: flex-end;
+        flex-wrap: wrap;
       }
     }
 
