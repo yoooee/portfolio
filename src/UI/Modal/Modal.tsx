@@ -102,8 +102,8 @@ function Modal({layout = "portrait", show, modalClosed, modalNext, modalPrev, ch
             </div>
           </section>
           <footer>
-            <button tabIndex={2} className="prev-button" onClick={modalPrev}>Prev</button>
-            <button tabIndex={2} className="next-button" onClick={modalNext}>Next</button>
+            <button tabIndex={2} onClick={modalPrev}>Prev</button>
+            <button tabIndex={2} onClick={modalNext}>Next</button>
           </footer>
         </div>
       </>
