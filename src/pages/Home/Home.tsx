@@ -15,7 +15,7 @@ function Home() {
       <article>
         <section>
           <p>My name is Josef Staroba and I am a software designer/developer with over {yearsOfExperience} years of professional experience. While I'm a jack of all trades, I find the most enjoyment in working with frontend technologies.</p>
-          <p>On this site, you will find a small sampling of my work over the span of my career.</p>
+          <p>On this site, you will find a small sampling of both my professional and personal work over the span of my career.</p>
         </section>
         <img src={Photo} alt="Josef Staroba" />
       </article>

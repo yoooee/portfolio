@@ -5,7 +5,11 @@
       "layout": "landscape",
       "title": "Personal Blog",
       "subtitle": "Custom designed blog",
-      "bodytext": "A blog I created designed and created for myself as a way to showcase the various projects on which I was working.",
+      "bodytext": "A blog I designed and created for myself as a way to showcase the various projects on which I was working.",
+      "features": [
+        {"text": "Custom designed DNN theme"},
+        {"text": "Responsive layout"}
+      ],
       "tags": ["css", "dnn", "html", "javascript" ]
     },
     {
@@ -46,7 +50,7 @@
       "layout": "landscape",
       "title": "Portfolio Website Concept",
       "subtitle": "Portfolio site beta",
-      "bodytext": "Keeping only the logo from my previous site design, I wanted to go in a more organic look and feel with this design",
+      "bodytext": "Keeping only the logo from my previous site design, I wanted to go with a more organic look and feel with this design",
       "tags": ["css", "html", "asp", "photography"]
     },
     {
@@ -60,14 +64,14 @@
       "image": "halloween.jpg",
       "title": "Trick or Treat",
       "subtitle": "Halloween Party Poster",
-      "bodytext": "We decided to throw a Halloween party at work so I designed this poster as a fun way to spread the news.",
+      "bodytext": "We decided to throw a Halloween party at work so I designed this poster as a fun way to get my fellow employees excited.",
       "tags": ["photoshop"]
     }, 
     {
       "image": "mardi-gras.jpg",
       "title": "Mardi Gras",
       "subtitle": "2010 Mardi Gras Poster Competition.",
-      "bodytext": "My submission for the 2010 Mardi Gras parade. The theme was famous kings and queens.",
+      "bodytext": "My submission for the 2010 Mardi Gras parade in St. Louis, Missouri. This parade is considered to be the second largest Mardi Gras celebration in the U.S. The theme was famous kings and queens.",
       "tags": ["photography", "photoshop", "wacom"]
     }
   ],
@@ -91,7 +95,7 @@
       "layout": "landscape",
       "title": "Billing Summary Portal",
       "subtitle": "Custom tabbed interface",
-      "bodytext": "Added a custom and reusable tab system to allow for users to easily access information required.",
+      "bodytext": "Added a custom and reusable tab system to allow for users to easily access information required. This new tab system replaced a cumbersome and difficult to implement tab system aiding developers in the implementation efforts throughout the portal.",
       "features": [
         {"text": "Custom responsive grid system"}, 
         {"text": "Custom Tab Component"},
@@ -109,6 +113,7 @@
         {"text": "TanStack headless table"}, 
         {"text": "Custom column filters"}, 
         {"text": "Searchable"},
+        {"text": "Respnosive design"},
         {"text": "Case Study", "url": "https://engagesoftware.com/showcase/case-study-cci"}
       ],
       "tags": ["html", "css", "svelte", "typescript"]
@@ -173,7 +178,7 @@
       "image": "spawn.jpg",
       "title": "Spawn",
       "subtitle": "Drawing of Todd McFarlane's Spawn character",
-      "bodytext": "I spent each of my one hour lunch breaks for seventeen days drawing spawn.",
+      "bodytext": "I spent each of my one hour lunch breaks for seventeen days drawing the comic book character spawn.",
       "tags": ["photoshop", "wacom"]
     }, 
     {
@@ -182,7 +187,7 @@
       "subtitle": "Concept character",
       "bodytext": "A traditional drawing of a character I created that was colored in Photoshop.",
       "features": [
-        {"text": "Custom desing"}, 
+        {"text": "Custom design"}, 
         {"text": "Hand drawn"}
       ],
       "tags": ["graphite", "photoshop"]
