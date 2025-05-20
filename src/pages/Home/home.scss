@@ -41,6 +41,22 @@
 
 }
 
+aside {
+  color: var(--color-page-link);
+  width: 80%;
+  margin: 0 auto;
+  font-size: .85rem;
+
+  a {
+    color: var(--color-page-link);
+  }
+
+  small {
+    font-size: .85rem;
+    white-space: nowrap;
+  }
+}
+
 @media (min-width: $device-sm) {
   .home {
     article {
@@ -54,7 +70,7 @@
 }
 
 @media (min-width: $device-md) {
-  .home {
+  .home, aside {
     width: 70%;
   }
 }
