@@ -42,6 +42,10 @@ function Modal({layout = "portrait", show, modalClosed, modalNext, modalPrev, ch
   }
 
   function touchEndHandler() {
+    const section = modalRef.current!.querySelector('section');
+    const nextButton = modalRef.current!.querySelectorAll('button')[1];
+    const prevButton = modalRef.current!.querySelectorAll('button')[2];
+
     if (!touchStart || !touchEnd) return;
 
     const distance = touchStart - touchEnd;
@@ -49,11 +53,11 @@ function Modal({layout = "portrait", show, modalClosed, modalNext, modalPrev, ch
     const isRightSwipe = distance < -minSwipeDistnace;
 
     if (isLeftSwipe || isRightSwipe) {
-      const nextButton = modalRef.current!.querySelectorAll('button')[1];
-      const prevButton = modalRef.current!.querySelectorAll('button')[2];
 
       isLeftSwipe ? prevButton.click() : nextButton.click();
+      section!.scrollTo(0,0);
     }
+
   }
   
 

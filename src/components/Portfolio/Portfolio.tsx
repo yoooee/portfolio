@@ -21,7 +21,7 @@ function Portfolio({category}: PortfolioProps) {
   function cardClickHandler(currentModal: number) {
     setCurrentModal(currentModal);
     setModalIsOpen(true); 
-    window.scrollTo(0, 0);
+    window.scrollTo(0,0);
   }
 
   const modalClickNextHandler = useCallback(() => {
