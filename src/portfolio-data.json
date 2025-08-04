@@ -73,6 +73,13 @@
       "subtitle": "2010 Mardi Gras Poster Competition.",
       "bodytext": "My submission for the 2010 Mardi Gras parade in St. Louis, Missouri. This parade is considered to be the second largest Mardi Gras celebration in the U.S. The theme was famous kings and queens.",
       "tags": ["photography", "photoshop", "wacom"]
+    },
+    {
+      "image": "Space.jpg",
+      "title": "Space",
+      "subtitle": "The Final Frontier",
+      "bodytext": "In an effort to improve my ability and understanding of working with Photoshop filters, I created a planet in space with several stars.",
+      "tags": ["photoshop"]
     }
   ],
   "development": [
@@ -168,6 +175,13 @@
       "tags": ["photoshop", "wacom"]
     },
     {
+      "image": "sketch_female_portrait.jpg",
+      "title": "Female Portrait",
+      "subtitle": "Practice sketch",
+      "bodytext": "I painted this portrait with a Wacom in Photoshop as an exercise to become more comfortable working with a digital medium.",
+      "tags": ["photoshop", "wacom"]
+    },
+    {
       "image": "arnold.jpg",
       "title": "The Governator",
       "subtitle": "College drawing project",
@@ -198,6 +212,13 @@
       "subtitle": "Fight to the death",
       "bodytext": "As a fourteen year old, I spent a lot of times drawing and using comic books as my reference. This is a drawing of original artwork by Larry Hama and Marc Silvestri.",
       "tags": ["graphite"]
+    },
+    {
+      "image": "spiderman.jpg",
+      "title": "Spiderman",
+      "subtitle": "Painting for my son's bedroom",
+      "bodytext": "My son wanted Spiderman swinging into his room, so I painted this on his wall.",
+      "tags": ["traditional"]
 
     }
   ],
