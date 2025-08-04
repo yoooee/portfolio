@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.c3d02b55.css",
-    "main.js": "/static/js/main.2f82a7dc.js",
+    "main.js": "/static/js/main.b5bca0fc.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
+    "static/media/the-frontier-explorers.png": "/static/media/the-frontier-explorers.af642d325761f30b2bf1.png",
     "static/media/mardi-gras.jpg": "/static/media/mardi-gras.0cd04f2ad27827a38ceb.jpg",
     "static/media/spawn.jpg": "/static/media/spawn.c04464361affcd6ac133.jpg",
     "static/media/door.jpg": "/static/media/door.62dd1352eefe4c72d5ed.jpg",
@@ -18,6 +19,7 @@
     "static/media/golf-classic.jpg": "/static/media/golf-classic.3059add151ffce4a918a.jpg",
     "static/media/clouds.jpg": "/static/media/clouds.49e12b9a1b87a039c1d6.jpg",
     "static/media/fence.jpg": "/static/media/fence.0c21d88dc46cf83af709.jpg",
+    "static/media/wow.jpg": "/static/media/wow.1a1935cc081d943a4d72.jpg",
     "static/media/cat.jpg": "/static/media/cat.600a1a42582125a33b3d.jpg",
     "static/media/yoooee-blog.png": "/static/media/yoooee-blog.16330848db5bc0f48f41.png",
     "static/media/wolverine.jpg": "/static/media/wolverine.fc3f6965f7cbf7a441e4.jpg",
@@ -56,11 +58,11 @@
     "static/media/cmss-interface.png": "/static/media/cmss-interface.325888a91ed42340dc1e.png",
     "index.html": "/index.html",
     "main.c3d02b55.css.map": "/static/css/main.c3d02b55.css.map",
-    "main.2f82a7dc.js.map": "/static/js/main.2f82a7dc.js.map",
+    "main.b5bca0fc.js.map": "/static/js/main.b5bca0fc.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c3d02b55.css",
-    "static/js/main.2f82a7dc.js"
+    "static/js/main.b5bca0fc.js"
   ]
 }
