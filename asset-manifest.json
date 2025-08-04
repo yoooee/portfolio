@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c3d02b55.css",
-    "main.js": "/static/js/main.1e2dd8c8.js",
+    "main.js": "/static/js/main.2f82a7dc.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/mardi-gras.jpg": "/static/media/mardi-gras.0cd04f2ad27827a38ceb.jpg",
     "static/media/spawn.jpg": "/static/media/spawn.c04464361affcd6ac133.jpg",
@@ -12,6 +12,7 @@
     "static/media/lamp.jpg": "/static/media/lamp.38f571dc987adc13cbe4.jpg",
     "static/media/smb.jpg": "/static/media/smb.d47c0d707586f758e676.jpg",
     "static/media/cvn.jpg": "/static/media/cvn.4f51b1029dbe0cbcc7f9.jpg",
+    "static/media/spiderman.jpg": "/static/media/spiderman.ad0f801ff0437bb3fd0a.jpg",
     "static/media/machine.jpg": "/static/media/machine.8ef4ebc2429f6517b9c4.jpg",
     "static/media/mobot-desktop.png": "/static/media/mobot-desktop.2a225a376742e8f60d57.png",
     "static/media/golf-classic.jpg": "/static/media/golf-classic.3059add151ffce4a918a.jpg",
@@ -38,9 +39,11 @@
     "static/media/sketch_male_portrait.jpg": "/static/media/sketch_male_portrait.9f8c2c00efa88c3bf3a8.jpg",
     "static/media/portrait.jpg": "/static/media/portrait.70c1289a1950f2fc3691.jpg",
     "static/media/staroba-redesign-2-fall.png": "/static/media/staroba-redesign-2-fall.de87c1b52a1b72c6fe74.png",
+    "static/media/Space.jpg": "/static/media/Space.ba040401bb557ddac7f6.jpg",
     "static/media/steadyrain-desktop.png": "/static/media/steadyrain-desktop.0318a8b37aef9cda8938.png",
     "static/media/staroba-web-development.png": "/static/media/staroba-web-development.88e79dfe31c4741c1521.png",
     "static/media/staroba-redesign-2-spring.png": "/static/media/staroba-redesign-2-spring.df225acf149957adbaea.png",
+    "static/media/sketch_female_portrait.jpg": "/static/media/sketch_female_portrait.2699e850764d682451e7.jpg",
     "static/media/custom-drop-down.png": "/static/media/custom-drop-down.edea5de18607b44bf235.png",
     "static/media/logo-desktop.svg": "/static/media/logo-desktop.15895aed9d86a68f0b731d984d4c412b.svg",
     "static/media/cmss-interface.gif": "/static/media/cmss-interface.a5fc91e531a2760c7604.gif",
@@ -53,11 +56,11 @@
     "static/media/cmss-interface.png": "/static/media/cmss-interface.325888a91ed42340dc1e.png",
     "index.html": "/index.html",
     "main.c3d02b55.css.map": "/static/css/main.c3d02b55.css.map",
-    "main.1e2dd8c8.js.map": "/static/js/main.1e2dd8c8.js.map",
+    "main.2f82a7dc.js.map": "/static/js/main.2f82a7dc.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c3d02b55.css",
-    "static/js/main.1e2dd8c8.js"
+    "static/js/main.2f82a7dc.js"
   ]
 }
