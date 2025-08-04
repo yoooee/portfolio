@@ -1,6 +1,14 @@
 {
   "design" : [
     {
+      "image": "wow.jpg",
+      "layout": "portrait",
+      "title": "World of Warcraft",
+      "subtitle": "Concept art for a World of Warcraft commercial.",
+      "bodytext": "In addition to drawing several storyboards for multiple World of Warfract commercials, this was to be the final image for each commercial variation.",
+      "tags": ["photoshop"]
+    },
+    {
       "image": "yoooee-blog.png",
       "layout": "landscape",
       "title": "Personal Blog",
@@ -219,6 +227,13 @@
       "subtitle": "Painting for my son's bedroom",
       "bodytext": "My son wanted Spiderman swinging into his room, so I painted this on his wall.",
       "tags": ["traditional"]
+    },
+    {
+      "image": "the-frontier-explorers.png",
+      "title": "The Fontier Explorers",
+      "subtitle": "Comissioned book cover",
+      "bodytext": "I worked with the author of this book to develop a cover that conveyed the time period and sense of adventure present throughout the story.",
+      "tags": ["procreate", "ipad"]
 
     }
   ],
