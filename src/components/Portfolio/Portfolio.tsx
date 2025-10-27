@@ -2,15 +2,9 @@ import { useState, useEffect, useCallback } from "react";
 import type { PortfolioItem } from "../../interfaces";
 import { Category } from "../../interfaces";
 import results from "../../portfolio-data.json";
-import Card from "../../components/Card/Card";
-import CardList from "../../components/CardList/CardList";
 import {
-  animate,
   AnimatePresence,
-  motion,
-  TargetAndTransition,
   useAnimate,
-  VariantLabels,
   Variants,
 } from "framer-motion";
 import Modal from "../../UI/Modal/Modal";
