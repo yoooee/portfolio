@@ -1,11 +1,13 @@
+import { motion } from 'framer-motion';
+import { routeVariants } from '../../components/RoutesWithAnimation';
 import Portfolio from '../../components/Portfolio/Portfolio';
 
 function Photography() {
 
   return (
-    <div className="photography-cards">
+    <motion.div variants={routeVariants} initial="initial" animate="final" className="photography-cards">
       <Portfolio category="photography" />
-    </div>
+    </motion.div>
   );
 }
 

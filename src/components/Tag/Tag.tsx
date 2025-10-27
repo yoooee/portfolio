@@ -1,12 +1,13 @@
-import React, {ReactNode} from 'react';
+import { ReactNode } from "react";
 
-import './tag.scss';
+import "./tag.scss";
 
 interface TagProps {
   children: ReactNode;
 }
-function Tag({children}: TagProps) {
-  return (<div className="tag">{children}</div>);
+
+function Tag({ children }: TagProps) {
+  return <div className="tag">{children}</div>;
 }
 
 export default Tag;

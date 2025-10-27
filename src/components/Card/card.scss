@@ -8,9 +8,9 @@
   transition: outline 0.15s ease-out;
   box-shadow: var(--shadow);
 
-  &:has(.thumbnail:focus, .thumbnail:hover) {
-    outline: solid 3px var(--color-accent);
-  }
+  // &:has(.thumbnail:focus, .thumbnail:hover) {
+  //   outline: solid 3px var(--color-accent);
+  // }
 
   .thumbnail {
     width: 100%;

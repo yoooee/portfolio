@@ -1,14 +1,16 @@
 import React, {ReactNode} from 'react';
 
 import './card-list.scss';
+import { motion } from 'framer-motion';
 
 interface CardListProps {
-  children: ReactNode
+  children: ReactNode,
 }
-function CardList({children}: CardListProps) {
+function CardList({children, ...props}: CardListProps) {
   return (
-    <div className="card-list">{children}</div>
+    <div className="card-list" {...props}>{children}</div>
   );
 }
 
-export default CardList;
+const MotionCardList = motion(CardList);
+export default MotionCardList;
