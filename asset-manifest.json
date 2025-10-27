@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.119a5b53.css",
-    "main.js": "/static/js/main.bf7eaa61.js",
+    "main.js": "/static/js/main.4a481b1f.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/the-frontier-explorers.png": "/static/media/the-frontier-explorers.af642d325761f30b2bf1.png",
     "static/media/mardi-gras.jpg": "/static/media/mardi-gras.0cd04f2ad27827a38ceb.jpg",
@@ -59,11 +59,11 @@
     "static/media/linkedlist.png": "/static/media/linkedlist.a21654f20a692717d694.png",
     "index.html": "/index.html",
     "main.119a5b53.css.map": "/static/css/main.119a5b53.css.map",
-    "main.bf7eaa61.js.map": "/static/js/main.bf7eaa61.js.map",
+    "main.4a481b1f.js.map": "/static/js/main.4a481b1f.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.119a5b53.css",
-    "static/js/main.bf7eaa61.js"
+    "static/js/main.4a481b1f.js"
   ]
 }
