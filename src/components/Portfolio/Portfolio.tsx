@@ -59,14 +59,19 @@ function Portfolio({ category }: PortfolioProps) {
   const modalClickNextHandler = useCallback(() => {
     if (currentModal < portfolioItemList.length - 1) {
       setCurrentModal(currentModal + 1);
-
       animate(
         ".modal section",
         { x: ["100vh", "0vh"] },
         { duration: 0.5, type: "spring" }
       );
+
     } else {
       setCurrentModal(0);
+      animate(
+        ".modal section",
+        { x: ["100vh", "0vh"] },
+        { duration: 0.5, type: "spring" }
+      );
     }
   }, [currentModal, portfolioItemList, animate]);
 
@@ -80,6 +85,11 @@ function Portfolio({ category }: PortfolioProps) {
       );
     } else {
       setCurrentModal(portfolioItemList.length - 1);
+      animate(
+        ".modal section",
+        { x: ["-100vh", "0vh"] },
+        { duration: 0.5, type: "spring" }
+      );
     }
   }, [currentModal, portfolioItemList, animate]);
 
